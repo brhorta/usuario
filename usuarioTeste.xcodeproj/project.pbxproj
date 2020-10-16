@@ -16,6 +16,8 @@
 		0F5D24D325312136000C86F4 /* FuncionarioTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5D24D125312136000C86F4 /* FuncionarioTableViewCell.swift */; };
 		0F5D24D425312136000C86F4 /* FuncionarioTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F5D24D225312136000C86F4 /* FuncionarioTableViewCell.xib */; };
 		0F5D24D825312468000C86F4 /* Funcionario.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5D24D725312468000C86F4 /* Funcionario.swift */; };
+		0F6CCF2925392BC90034AEE7 /* DetalheVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6CCF2825392BC90034AEE7 /* DetalheVC.swift */; };
+		0F6CCF3825395B790034AEE7 /* NovoFuncionarioVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6CCF3725395B790034AEE7 /* NovoFuncionarioVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		0F5D24D125312136000C86F4 /* FuncionarioTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuncionarioTableViewCell.swift; sourceTree = "<group>"; };
 		0F5D24D225312136000C86F4 /* FuncionarioTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FuncionarioTableViewCell.xib; sourceTree = "<group>"; };
 		0F5D24D725312468000C86F4 /* Funcionario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Funcionario.swift; sourceTree = "<group>"; };
+		0F6CCF2825392BC90034AEE7 /* DetalheVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalheVC.swift; sourceTree = "<group>"; };
+		0F6CCF3725395B790034AEE7 /* NovoFuncionarioVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NovoFuncionarioVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +80,8 @@
 				0F5D24BC25312068000C86F4 /* AppDelegate.swift */,
 				0F5D24BE25312068000C86F4 /* SceneDelegate.swift */,
 				0F5D24C025312068000C86F4 /* FuncionarioVC.swift */,
+				0F6CCF2825392BC90034AEE7 /* DetalheVC.swift */,
+				0F6CCF3725395B790034AEE7 /* NovoFuncionarioVC.swift */,
 				0F5D24C225312068000C86F4 /* Main.storyboard */,
 				0F5D24C52531206B000C86F4 /* Assets.xcassets */,
 				0F5D24C72531206B000C86F4 /* LaunchScreen.storyboard */,
@@ -126,7 +132,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 0F5D24B425312068000C86F4 /* Build configuration list for PBXProject "usuario" */;
+			buildConfigurationList = 0F5D24B425312068000C86F4 /* Build configuration list for PBXProject "usuarioTeste" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -167,7 +173,9 @@
 				0F5D24D825312468000C86F4 /* Funcionario.swift in Sources */,
 				0F5D24C125312068000C86F4 /* FuncionarioVC.swift in Sources */,
 				0F5D24BD25312068000C86F4 /* AppDelegate.swift in Sources */,
+				0F6CCF2925392BC90034AEE7 /* DetalheVC.swift in Sources */,
 				0F5D24BF25312068000C86F4 /* SceneDelegate.swift in Sources */,
+				0F6CCF3825395B790034AEE7 /* NovoFuncionarioVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,7 +356,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0F5D24B425312068000C86F4 /* Build configuration list for PBXProject "usuario" */ = {
+		0F5D24B425312068000C86F4 /* Build configuration list for PBXProject "usuarioTeste" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0F5D24CB2531206B000C86F4 /* Debug */,

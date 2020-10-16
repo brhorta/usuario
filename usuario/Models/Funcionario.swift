@@ -9,10 +9,10 @@ import Foundation
 import UIKit
 
 struct Funcionario {
-    let nome: String?
-    let sobrenome: String?
-    let email: String?
-    let matricula: String?
+    var nome: String?
+    var sobrenome: String?
+    var email: String?
+    var matricula: String?
     
     var img: UIImage? = UIImage(named: "userPlaceholder")
     
